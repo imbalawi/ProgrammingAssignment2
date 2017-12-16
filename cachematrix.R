@@ -55,7 +55,7 @@ cacheSolve <- function(x, ...) {
 ##Assume matrix is invertible
 A=matrix(c(2,1,5,-1),2,2)
 mat.cache=makeCacheMatrix(A) 
-a.inv = cacheSolve(mat.cache)
+a.inv = cacheSolve(mat.cache) #getting inverse from cache
 a.inv
 
 ## Solution
